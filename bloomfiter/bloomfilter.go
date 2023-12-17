@@ -1,6 +1,10 @@
 package bloomfiter
 
-type BloomFilter[T any] interface {
-	add(value T)
-	exists(value T)
+import (
+	"encoding"
+)
+
+type BloomFilter[T encoding.BinaryMarshaler] interface {
+	Add(value T)
+	Contains(value T) bool
 }
