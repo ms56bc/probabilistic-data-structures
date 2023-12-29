@@ -1,4 +1,4 @@
-package bloomfiter
+package bloomfilter
 
 import (
 	"encoding"

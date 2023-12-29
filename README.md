@@ -8,8 +8,8 @@ approximate results with a certain error rate are acceptable.
 
 
 Here are some popular types of probabilistic data structures, accompanied by their simplified implementations 
-- BloomFilter
-- Count-Min Sketch
+- [BloomFilter](./bloomfilter/README.md)
+- [Count-Min Sketch](./countminsketch/README.md)
 - HyperLogLog
 - Cuckoo Filter
 - Quotient Filter
